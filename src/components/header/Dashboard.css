@@ -1,0 +1,59 @@
+.dashboard {
+  padding: 20px;
+}
+
+.nav {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #555;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__searchInput {
+  padding: 5px;
+  border: 2px solid #ccc202;
+  border-radius: 7px;
+}
+
+.nav__avatarImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav__menuBtn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav__menuBtn:hover {
+  background-color: #555;
+}
+
+.nav__brand {
+  margin: 0;
+  font-size: 30px;
+}
+.button-container {
+  text-align: center; /* Center the button horizontally */
+  margin-top: 20px; /* Add top margin for spacing */
+}
+

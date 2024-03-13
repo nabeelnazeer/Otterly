@@ -1,0 +1,31 @@
+.horizontal-block {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Text color */
+    padding: 20px; /* Padding inside the block */
+    font-size: 1.6rem; /* Font size */
+    margin-top: 50px; /* Top margin for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .title {
+    margin-bottom: 20px; /* Bottom margin for spacing */
+  }
+  
+  .company-icons {
+    display: flex; /* Arrange icons in a row */
+    justify-content: center; /* Center icons horizontally */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+  }
+  
+  .icon {
+    font-size: 2.5rem; /* Icon size */
+    margin: 0 10px; /* Add space between icons */
+    color: #007bff; /* Icon color */
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* Add a slight scale animation on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  

@@ -1,0 +1,32 @@
+.button {
+    background-color: #FFD700; /* Bright yellow background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  .button:hover {
+    background-color: #FFA500; /* Darker yellow on hover */
+  }
+  
+  /* Animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animated-button {
+    animation: pulse 2s infinite; /* Apply animation to the button */
+  }
+  
