@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import Font
 const HorizontalBlock = ({ children }) => {
   return (
     <div className="horizontal-block">
-      <h1 className="title">Our students get placed in:</h1>
+      <h1 className="title">Courses Offered:</h1>
       <div className="company-icons">
         {/* Add icons here */}
         <FontAwesomeIcon icon="fagoogle" className="icon" />

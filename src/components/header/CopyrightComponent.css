@@ -1,0 +1,18 @@
+/* CopyrightComponent.css */
+.copyright {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    border-top: 2px solid #ccc;
+  }
+  
+  .copyright p {
+    margin: 0;
+  }
+  /* CopyrightComponent.css */
+.copyright {
+    margin-top: 20px; /* Adjust the value as needed */
+    /* Other styles */
+  }

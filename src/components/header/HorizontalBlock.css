@@ -28,4 +28,8 @@
     transform: scale(1.1); /* Add a slight scale animation on hover */
     transition: transform 0.3s ease; /* Smooth transition */
   }
-  
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
