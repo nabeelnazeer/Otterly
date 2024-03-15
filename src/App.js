@@ -8,6 +8,7 @@ import CourseSelection from './components/header/CourseSelection';
 import CopyrightComponent from './components/header/CopyrightComponent';
 import UtilityPage from './components/header/UtilityPage'; // Import the UtilityPage component
 import CourseStructurePage from './components/header/CourseStructurePage';
+import Overview from './components/header/Overview';
 
 
 function App() {
@@ -32,6 +33,7 @@ function MainPage() {
   return (
     <>
       <Dashboard />
+      <Overview/>
       <div className="button-container">
         <ButtonComponent />
         <ImageComponent />

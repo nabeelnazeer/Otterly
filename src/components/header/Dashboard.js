@@ -33,7 +33,7 @@ const Dashboard = () => {
           </div>
         </div>
       </nav>
-      <Overview />
+      {/* <Overview /> */}
     </div>
   );
 };
