@@ -7,6 +7,8 @@ import HorizontalBlock from './components/header/HorizontalBlock';
 import CourseSelection from './components/header/CourseSelection';
 import CopyrightComponent from './components/header/CopyrightComponent';
 import UtilityPage from './components/header/UtilityPage'; // Import the UtilityPage component
+import CourseStructurePage from './components/header/CourseStructurePage';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
 
           {/* Define the route for the UtilityPage component */}
           <Route path="/UtilityPage" element={<UtilityPage />} />
+          <Route path = "/CourseStructurePage" element={<CourseStructurePage/>} />
         </Routes>
       </div>
     </Router>
