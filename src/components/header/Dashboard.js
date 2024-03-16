@@ -17,7 +17,7 @@ const Dashboard = () => {
             />
           </div>
           <div className="nav__menu">
-            <button className="nav__menuBtn">Menu</button>
+            <button className="nav__menuBtn">Home</button>
           </div>
         </div>
         <div className="nav__center">
