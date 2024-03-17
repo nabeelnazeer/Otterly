@@ -1,0 +1,109 @@
+.course-structure {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-item {
+  width: calc(50% - 20px); /* Make each box 50% wide with margin */
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-item:hover {
+  transform: translateY(-5px); /* Add hover effect */
+}
+
+.course-icon {
+  font-size: 24px;
+  color: #653d00; /* Match icon color with link color */
+}
+
+.course-title {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.course-description {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .course-item {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+.begin-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+/* From uiverse.io by @Ali-Tahmazi99 */
+button {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #03045e;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+ }
+ 
+ button::before,
+ button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+ }
+ 
+ button::before {
+  left: -10px;
+  background: #d4bb01;
+ }
+ 
+ button::after {
+  right: -10px;
+  background: #824e01;
+ }
+ 
+ button:hover::before,
+ button:hover::after {
+  width: 58%;
+ }
+ 
+ button:hover span {
+  color: #442200;
+  transition: 0.3s;
+ }
+ 
+ button span {
+  color: #473904;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+ }
