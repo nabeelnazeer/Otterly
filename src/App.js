@@ -6,7 +6,7 @@ import ButtonComponent from './components/header/ButtonComponent';
 import HorizontalBlock from './components/header/HorizontalBlock';
 import CourseSelection from './components/header/CourseSelection';
 import CopyrightComponent from './components/header/CopyrightComponent';
-import LoginSignup from './components/LoginSignup';
+import LoginSignup from './components/header/LoginSignup';
 
 function App() {
   return (
