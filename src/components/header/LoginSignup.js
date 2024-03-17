@@ -21,7 +21,11 @@ import Dashboard from './Dashboard';
 // Define the LoginSignup component
 function LoginSignup() {
   return (
+    <div>
+      <Dashboard/>
     <div className="main">
+
+      {/* <Dashboard/> */}
       <input type="checkbox" id="chk" aria-hidden="true" />
       {/* <div>
         <Dashboard/>
@@ -44,6 +48,7 @@ function LoginSignup() {
           <button>Sign up</button>
         </form>
       </div>
+    </div>
     </div>
   );
 }
