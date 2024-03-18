@@ -17,10 +17,12 @@
 import React from 'react';
 import './LoginSignup.css';
 import Dashboard from './Dashboard';
+import CopyrightComponent from './CopyrightComponent';
 
 // Define the LoginSignup component
 function LoginSignup() {
   return (
+    
     <div>
       <Dashboard/>
     <div className="main">
@@ -49,7 +51,9 @@ function LoginSignup() {
         </form>
       </div>
     </div>
+    
     </div>
+    
   );
 }
 

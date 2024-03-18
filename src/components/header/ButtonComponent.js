@@ -9,7 +9,7 @@ const ButtonComponent = () => {
     //   Get Started (It's Free)
     // </button>
     <div>
-      <Link to ="./LoginSignup" className='button'>Get Started (It's Free)</Link>
+      <Link to ="./LoginSignup" className='button get-started-button'>Get Started (It's Free)</Link>
     </div>
   );
 };

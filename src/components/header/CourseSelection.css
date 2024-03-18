@@ -1,7 +1,7 @@
 /* CourseSelection.css */
 .course-selection {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
   }
   
   h2 {
@@ -34,7 +34,7 @@
   
   @media (max-width: 768px) {
     .course-item {
-      width: 100%;
+      width: 200%;
     }
   }
   
