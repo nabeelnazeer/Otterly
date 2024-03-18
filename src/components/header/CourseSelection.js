@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from React Router
 import './CourseSelection.css'; // Import CSS file for styling
 
 const CourseSelection = () => {
@@ -9,9 +10,9 @@ const CourseSelection = () => {
       <h2>Choose a Course</h2>
       <div className="course-list">
         {courses.map((course, index) => (
-          <div key={index} className="course-item">
+          <Link key={index} to={`/${course}`} className="course-item">
             {course}
-          </div>
+          </Link>
         ))}
       </div>
     </div>

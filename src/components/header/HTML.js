@@ -1,13 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon for icons
 import { faBook } from '@fortawesome/free-solid-svg-icons'; // Import the book icon
-import './CourseStructurePage.css'; // Import CSS file for styling
+import './HTML.css'; // Import CSS file for styling
 import Dashboard from './Dashboard'; // Import Dashboard component
 // import ModuleDropdown from './ModuleDropdown';
 import CourseTable from './CourseTable';
 import CopyrightComponent from './CopyrightComponent';
 
-const CourseStructurePage = () => {
+const HTML = () => {
   return (
     <div>
       <Dashboard /> {/* Include the Dashboard component */}
@@ -33,4 +33,4 @@ const CourseStructurePage = () => {
   );
 };
 
-export default CourseStructurePage;
+export default HTML;

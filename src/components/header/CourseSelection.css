@@ -1,40 +1,41 @@
 /* CourseSelection.css */
 .course-selection {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .course-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-item {
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 24px;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.course-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
   .course-item {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 20px;
-    border: 2px solid #4caf50;
-    border-radius: 10px;
-    width: 300px;
-    border-style: double;
-    text-align: center;
-    transition: border-colour 0.3s ease;
+    width: 80%;
   }
-  
-  .course-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  @media (max-width: 768px) {
-    .course-item {
-      width: 200%;
-    }
-  }
-  
+}

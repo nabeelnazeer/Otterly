@@ -11,7 +11,7 @@ import CopyrightComponent from './components/header/CopyrightComponent';
 
 import LoginSignup from './components/header/LoginSignup';
 // import UtilityPage from './components/header/UtilityPage'; // Import the UtilityPage component
-import CourseStructurePage from './components/header/CourseStructurePage';
+import HTML from './components/header/HTML';
 import Overview from './components/header/Overview';
 
 
@@ -30,7 +30,7 @@ function App() {
 
           <Route path="/LoginSignup" element={<LoginSignup />} />
          
-          <Route path = "/CourseStructurePage" element={<CourseStructurePage/>} />
+          <Route path = "/HTML" element={<HTML/>} />
 
         </Routes>
       </div>
