@@ -7,12 +7,13 @@ import HorizontalBlock from './components/header/HorizontalBlock';
 import CourseSelection from './components/header/CourseSelection';
 import CopyrightComponent from './components/header/CopyrightComponent';
 
-
+import LearnWindow from './components/header/LearnWindow.js';
 
 import LoginSignup from './components/header/LoginSignup';
 // import UtilityPage from './components/header/UtilityPage'; // Import the UtilityPage component
 import HTML from './components/header/HTML';
 import Overview from './components/header/Overview';
+import LearnPortal from './components/header/LearnPortal';
 
 
 
@@ -26,11 +27,13 @@ function App() {
 
           {/* Define the route for the UtilityPage component */}
 
-         
+         {/* <LearnPortal/> */}
 
           <Route path="/LoginSignup" element={<LoginSignup />} />
          
           <Route path = "/HTML" element={<HTML/>} />
+
+          <Route path = "/LearnPortal" element ={<LearnPortal/>}/>
 
         </Routes>
       </div>

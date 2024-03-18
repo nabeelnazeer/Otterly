@@ -1,0 +1,29 @@
+.code-editor {
+    width: 50%; /* Take up 50% of the page width */
+    height: 100vh; /* Take up full height of the viewport */
+    float: left; /* Float the editor to the left */
+    border: none; /* Remove border */
+  }
+  
+  /* Adjust padding and margin as needed */
+  .code-editor .CodeMirror {
+    padding: 20px;
+  }
+  
+  /* Optional: Customize scrollbar */
+  .code-editor .CodeMirror-scrollbar {
+    background-color: #f0f0f0;
+  }
+  .learn-window {
+    display: flex;
+  }
+  
+  .output-display {
+    flex: 1;
+    margin-right: 20px; /* Add some margin between the output display and the code editor */
+  }
+  
+  .code-editor {
+    flex: 1;
+  }
+  
