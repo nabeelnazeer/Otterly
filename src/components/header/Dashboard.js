@@ -1,6 +1,6 @@
 import React from 'react';
 import './Dashboard.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Overview from './Overview';
 import image from './avatar.png';
 
@@ -17,7 +17,9 @@ const Dashboard = () => {
             />
           </div>
           <div className="nav__menu">
-            <button className="nav__menuBtn">Home</button>
+            <Link to="/">
+              <button className='nav__menuBtn'>Home</button>
+            </Link>
           </div>
         </div>
         <div className="nav__center">
