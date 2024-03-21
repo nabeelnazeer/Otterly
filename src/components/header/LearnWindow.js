@@ -7,10 +7,11 @@ import './LearnWindow.css';
 
 function LearnWindow() {
   const [htmlCode, setHtmlCode] = useState('');
-
+  
   // Function to handle changes in the code editor
   const handleChange = (newCode) => {
     setHtmlCode(newCode);
+    // You can add additional logic here if needed
   };
 
   return (
@@ -18,8 +19,9 @@ function LearnWindow() {
       <h1 className="app-title">HTML Project: A Cat Photo App</h1>
       <div className="content-wrapper">
         <div className="code-editor">
+          {/* Render the VirtualAssistant component */}
+          {/* <VirtualAssistant htmlCode={htmlCode} setHtmlCode={setHtmlCode} /> */}
           <h2>Code Editor</h2>
-          {/* Render the AceEditor component */}
           <AceEditor
             mode="html"
             theme="github"
@@ -34,8 +36,6 @@ function LearnWindow() {
             showPrintMargin={false}
             showGutter={true} // Enable line numbering
           />
-          {/* Render the VirtualAssistant component */}
-          {/* <VirtualAssistant htmlCode={htmlCode} setHtmlCode={setHtmlCode} /> */}
         </div>
         <div className="output-display">
           <h2>Output Display</h2>
