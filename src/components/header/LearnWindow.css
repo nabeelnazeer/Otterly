@@ -1,44 +1,69 @@
+/* LearnWindow.css */
+
 .learn-window {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .app-title {
-    color: #007bff;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .content-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .code-editor,
-  .output-display {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .code-editor {
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .output-display {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Additional styling for AceEditor */
-  .ace_editor {
-    border-radius: 8px;
-  }
-  
-  /* Adjust AceEditor font size */
-  .ace_editor .ace_content {
-    font-size: 14px;
-  }
-  
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.code-editor,
+.output-display {
+  flex: 1;
+  padding: 20px;
+}
+
+.code-editor {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.output-display {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Additional styling for AceEditor */
+.ace_editor {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Adjust AceEditor font size and cursor */
+.ace_editor .ace_content {
+  font-size: 16px;
+}
+
+/* Override Ace Editor's cursor styling */
+.ace_editor .ace_cursor {
+  border-left: 2px solid #000;
+  transition: all 0.3s ease;
+}
+
+/* Hide the print margin */
+.ace_gutter {
+  display: flex !important; /* Ensure line numbers are displayed */
+  background-color: #f5f5f5; /* Match editor background color */
+  color: #aaa; /* Line number color */
+  border-right: 1px solid #ddd; /* Separate line numbers from editor */
+  transition: all 0.3s ease;
+}
+
+/* Style line numbers */
+.ace_gutter-cell {
+  padding-right: 10px; /* Adjust spacing between line numbers and code */
+  transition: all 0.3s ease;
+}
