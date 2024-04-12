@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Dashboard from './Dashboard';
 import LearnWindow from './LearnWindow';
 import ProjectPreview from './ProjectPreview'; // Import the ProjectPreview component
+import "./LearnPortal.css"
+import InstructionBox from './InstructionBox';
 
 function LearnPortal() {
   const [showPreview, setShowPreview] = useState(true); // State to control the visibility of the project preview
@@ -23,6 +25,7 @@ function LearnPortal() {
       <LearnWindow />
       {/* Render the project preview if showPreview is true */}
       {showPreview && <ProjectPreview onClose={handleClosePreview} />}
+      <InstructionBox/>
     </div>
   );
 }

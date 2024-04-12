@@ -47,10 +47,12 @@ function MainPage() {
     <>
       <Dashboard />
       <Overview/>
+      <div className = "centered-container">
       <div className="button-container">
         <ButtonComponent />
         <ImageComponent />
         <HorizontalBlock />
+      </div>
       </div>
       <div className="button-container">
         <div className="centered-container">

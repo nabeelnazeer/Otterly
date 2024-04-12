@@ -6,7 +6,8 @@ import './LearnWindow.css';
 
 // Basic sanitization function to remove script tags
 function sanitizeHtml(html) {
- return html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+//  return html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+return html;
 }
 
 function LearnWindow() {

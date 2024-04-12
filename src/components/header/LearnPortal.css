@@ -1,0 +1,43 @@
+/* Style for the LearnPortal component */
+.learn-portal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the Dashboard component */
+  .dashboard {
+    margin-bottom: 20px; /* Add some space at the bottom */
+  }
+  
+  /* Style for the LearnWindow component */
+  .learn-window {
+    margin-bottom: 20px; /* Add some space at the bottom */
+  }
+  
+  /* Style for the ProjectPreview component */
+  .project-preview {
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Style for the close button in the ProjectPreview component */
+  .project-preview .close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .project-preview .close-button:hover {
+    color: #333;
+  }
+  

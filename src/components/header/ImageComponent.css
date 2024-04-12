@@ -1,12 +1,17 @@
 .image-container {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .image {
-    max-width: 30%; /* Reduce image size */
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  }
-  
+  display: flex;
+  justify-content: center; 
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Set height to occupy full viewport height */
+  text-align: center; 
+}
+
+.image {
+   /* Reduce image size */
+  max-width: 30%; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  max-width: 80%; /* Ensure image does not exceed container width */
+  max-height: 80%; /* Ensure image does not exceed container height */
+}
