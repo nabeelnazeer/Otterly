@@ -7,14 +7,14 @@ import HorizontalBlock from './components/header/HorizontalBlock';
 import CourseSelection from './components/header/CourseSelection';
 import CopyrightComponent from './components/header/CopyrightComponent';
 
-import LearnWindow from './components/header/LearnWindow.js';
+// import LearnWindow from './components/header/LearnWindow.js';
 
 import LoginSignup from './components/header/LoginSignup';
 // import UtilityPage from './components/header/UtilityPage'; // Import the UtilityPage component
 import HTML from './components/header/HTML';
 import Overview from './components/header/Overview';
 import LearnPortal from './components/header/LearnPortal';
-
+// import image from "src/components/header/otterTeach.png";
 
 
 function App() {
@@ -34,6 +34,8 @@ function App() {
           <Route path = "/HTML" element={<HTML/>} />
 
           <Route path = "/LearnPortal" element ={<LearnPortal/>}/>
+
+          {/* <Route path = "/image" elemet = {<image/>}/> */}
 
         </Routes>
       </div>
