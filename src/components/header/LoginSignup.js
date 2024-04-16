@@ -1,45 +1,51 @@
 import React, { useState } from 'react';
 import './LoginSignup.css';
-import { signInWithGoogle } from './auth'; // Import authentication service
+import { signInWithGoogle } from './auth';
 
 function LoginSignup() {
   const [showSignUp, setShowSignUp] = useState(false);
 
   const handleSignInWithGoogle = async () => {
     try {
-      await signInWithGoogle(); // Call authentication service method for Google sign-in
+      await signInWithGoogle();
     } catch (error) {
       console.error('Google Sign-In Error:', error);
     }
   };
 
-  const handleLabelClick = () => {
-    setShowSignUp(!showSignUp); // Toggle the showSignUp state
+  const handleToggleSignUp = () => {
+    setShowSignUp(!showSignUp);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Additional login/signup logic here
+    window.location.href = '/profile';
   };
 
   return (
     <div className="main">
       <div className="login">
-        <form className={`form ${showSignUp ? 'hidden' : ''}`}>
-          <label htmlFor="chk" aria-hidden="true" onClick={handleLabelClick}>LOG IN</label>
+        <form className={`form ${showSignUp ? 'hidden' : ''}`} onSubmit={handleSubmit}>
+          <label htmlFor="chk" aria-hidden="true" onClick={handleToggleSignUp}>LOG IN</label>
           <input className="input" type="email" name="email" placeholder="Email" required />
           <input className="input" type="password" name="pswd" placeholder="Password" required />
-          <button>Log in</button>
+          <button type="submit">Log in</button>
           <label htmlFor="remember-me">
             <input type="checkbox" id="remember-me" name="remember-me" />
             Remember Me
           </label>
         </form>
       </div>
-      
+
       <div className={`register ${showSignUp ? 'show' : ''}`}>
-        <form className={`form ${showSignUp ? '' : 'hidden'}`}>
-          <label htmlFor="chk" aria-hidden="true" onClick={handleLabelClick}>SIGN UP</label>
+        <form className={`form ${showSignUp ? '' : 'hidden'}`} onSubmit={handleSubmit}>
+          <label htmlFor="chk" aria-hidden="true" onClick={handleToggleSignUp}>SIGN UP</label>
           <input className="input" type="text" name="txt" placeholder="Name your Otter" required />
           <input className="input" type="email" name="email" placeholder="Email" required />
           <input className="input" type="password" name="pswd" placeholder="Password" required />
-          <button>Sign up</button>
-          <button onClick={handleSignInWithGoogle}>Sign in with Google</button>
+          <button type="submit">Sign up</button>
+          <button type="button" onClick={handleSignInWithGoogle}>Sign in with Google</button>
         </form>
       </div>
 
