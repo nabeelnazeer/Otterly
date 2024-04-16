@@ -53,5 +53,9 @@
     "@babel/preset-env": "^7.24.0",
     "css-loader": "^6.10.0",
     "html-loader": "^5.0.0"
-  }
+  },
+  "description": "",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC"
 }

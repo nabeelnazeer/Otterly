@@ -11,17 +11,19 @@
     animation: fadeIn 0.5s ease-in-out; /* Fade in animation */
   }
   
-  .project-preview-box {
-    background-color: #f5f5f5; /* Light gray background */
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    max-width: 60%;
-    max-height: 90%;
-    overflow: auto;
-    position: absolute;
-    animation: slideIn 0.5s ease-in-out; /* Slide in animation */
-  }
+ 
+
+.project-preview-box {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  max-width: 90%; /* Adjusted maximum width */
+  max-height: 90%; /* Adjusted maximum height */
+  overflow: auto; /* Hide overflow to prevent scrolling */
+  position: absolute;
+  animation: slideIn 0.5s ease-in-out; /* Slide in animation */
+}
   
   .close-btn {
     position: absolute;
@@ -43,15 +45,14 @@
     text-align: center;
     color: #333; /* Dark gray color */
   }
-  
   .image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; /* Center the images */
     margin-bottom: 20px;
   }
   
   .preview-image {
-    width: 45%; /* Smaller image size */
+    max-width: 45%; /* Adjusted image width */
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease; /* Smooth scale transition on hover */
