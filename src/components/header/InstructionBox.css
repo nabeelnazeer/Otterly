@@ -6,10 +6,20 @@
     display: flex;
     
     justify-content: space-between;
-    width: 100%;
-    max-width: 98%;
+    width: 70%;
+    max-width: 89%;
     margin: 20px auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .instruction-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styles for the animation */
+  .animation {
+    margin-right: 20px; /* Adjust margin as needed */
   }
   
   /* .instruction-content {

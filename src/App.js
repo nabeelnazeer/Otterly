@@ -14,6 +14,7 @@ import LoginSignup from './components/header/LoginSignup';
 import HTML from './components/header/HTML';
 import Overview from './components/header/Overview';
 import LearnPortal from './components/header/LearnPortal';
+import Profile from './components/header/profile';
 // import image from "src/components/header/otterTeach.png";
 
 
@@ -34,6 +35,11 @@ function App() {
           <Route path = "/HTML" element={<HTML/>} />
 
           <Route path = "/LearnPortal" element ={<LearnPortal/>}/>
+          
+          <Route path="/" exact element={<LoginSignup/>} />
+          <Route path="/profile" element={<Profile/>} />
+
+          {/* <Route path = "/profile" element = {<Profile/>}/> */}
 
           {/* <Route path = "/image" elemet = {<image/>}/> */}
 

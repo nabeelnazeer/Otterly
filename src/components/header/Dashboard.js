@@ -1,7 +1,7 @@
 import React from 'react';
 import './Dashboard.css';
 import { Link } from 'react-router-dom';
-import Overview from './Overview';
+// import Overview from './Overview';
 import image from './avatar.png';
 
 const Dashboard = () => {
