@@ -1,0 +1,94 @@
+.profile-info {
+  margin-bottom: 40px;
+}
+
+.profile-container {
+  margin: 70px;
+}
+
+.name-email-section {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.edit-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  display: none;
+}
+
+.name-email-section:hover .edit-icon {
+  display: inline;
+}
+
+.node {
+  width: calc(100% / 6);
+  text-align: center;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: #5d463c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.logout-btn:hover {
+  background-color: #613e27;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.progress-container {
+  margin: 100px;
+}
+
+.progress-bar-wrapper {
+  position: relative;
+  margin-top: 20px;
+}
+
+.progress-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #848584;
+  z-index: -1; /* Ensure it's behind the nodes */
+}
+
+.course-nodes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Adjust spacing */
+}
+
+.node {
+  width: 20px; /* Circle width */
+  height: 20px; /* Circle height */
+  border-radius: 50%; /* Make it a circle */
+  background-color: #848584;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b1a1a;
+}
+
+.node-text {
+  margin-top: 50px; /* Spacing between text and circles */
+}
+
+.notes {
+  margin-top: 80px;
+}
