@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="profile-container"> 
+    <div class="profile-info">
+      <h2>Profile</h2>
+      <div class="name-email-section">
+        <p>Name: Na Bee</p>
+        <span class="edit-icon" onclick="console.log('Edit name')">&#9998;</span>
+      </div>
+      <div class="name-email-section">
+        <p>Email: na.bee@gmail.com</p>
+        <span class="edit-icon" onclick="console.log('Edit email')">&#9998;</span>
+      </div>
+      <button class="logout-btn" onclick="handleLogout()">Log Out</button>
+    </div>
+    <div class="progress-container">
+      <h3>Progress</h3>
+      <div class="course-nodes">
+        <div class="node-container">
+          <div class="node">HTML</div>
+          <div class="node-text">HTML</div>
+        </div>
+        <div class="node-container">
+          <div class="node">CSS</div>
+          <div class="node-text">CSS</div>
+        </div>
+        <div class="node-container">
+          <div class="node">React</div>
+          <div class="node-text">React</div>
+        </div>
+        <div class="node-container">
+          <div class="node">Express</div>
+          <div class="node-text">Express</div>
+        </div>
+        <div class="node-container">
+          <div class="node">Node</div>
+          <div class="node-text">Node</div>
+        </div>
+        <div class="node-container">
+          <div class="node">MongoDB</div>
+          <div class="node-text">MongoDB</div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="notes">
+      <h3>My Notes</h3>
+      <a href="notes.html">View My Notes</a>
+    </div>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
