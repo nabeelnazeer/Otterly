@@ -1,5 +1,6 @@
 import React from 'react';
 import './Overview.css';
+// import lottie from "lottie-react"
 
 const Overview = () => {
   return (
@@ -11,7 +12,11 @@ const Overview = () => {
         Welcome to <span className="overview__brand">Otterly</span>, your one-stop shop for mastering web development in a fun and interactive way! Forget boring tutorials – Otterly throws you into a gamified world where you'll learn by doing, with a friendly virtual assistant by your side to guide you through challenges.
        
       </p>
+      <div>
+        {/* <lottie/> */}
+      </div>
     </div>
+    
   );
 };
 

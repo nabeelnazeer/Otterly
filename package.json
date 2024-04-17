@@ -11,8 +11,13 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "ace-builds": "^1.32.8",
+    "axios": "^1.6.8",
+    "cars": "^1.1.6",
     "codemirror": "^6.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "lottie-react": "^2.4.0",
+    "mongoose": "^8.3.1",
     "react": "^18.2.0",
     "react-ace": "^10.1.0",
     "react-dom": "^18.2.0",
@@ -53,7 +58,8 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.24.0",
     "css-loader": "^6.10.0",
-    "html-loader": "^5.0.0"
+    "html-loader": "^5.0.0",
+    "nodemon": "^3.1.0"
   },
   "description": "",
   "main": "webpack.config.js",
