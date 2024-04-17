@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
+import { useLocation, useNavigate } from 'react-router-dom'; // Import useNavigate hook
 import './profile.css';
 
 function Profile() {
   const navigate = useNavigate(); // Initialize useNavigate hook
+  const location = useLocation()
 
   const [name, setName] = useState('Na Bee');
   const [isEditingName, setIsEditingName] = useState(false);
@@ -26,7 +27,7 @@ function Profile() {
 
   const handleCourseClick = (course) => {
     console.log(`Clicked on course: ${course}`);
-    // Add any other logic for handling course click events here
+    navigate('/HTML');
   };
 
   return (

@@ -1,0 +1,82 @@
+/* Login.css */
+.Login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Login h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Login form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Login form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Login form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .Login p {
+    text-align: center;
+  }
+  
+  /* Signup.css */
+  .Signup {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Signup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Signup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Signup form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Signup form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Signup form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .Signup p {
+    text-align: center;
+  }
+  

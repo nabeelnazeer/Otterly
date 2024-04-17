@@ -53,7 +53,7 @@ app.post("/Signup", async (req, res) => {
   }
 });
 
-const PORT = 8007;
+const PORT = 8008;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
