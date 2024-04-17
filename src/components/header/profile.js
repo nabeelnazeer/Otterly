@@ -25,9 +25,15 @@ function Profile() {
     }
   };
 
+  // const handleCourseClick = (course) => {
+  //   console.log(`Clicked on course: ${course}`);
+  //   navigate('/HTML');
+  // };
   const handleCourseClick = (course) => {
     console.log(`Clicked on course: ${course}`);
-    navigate('/HTML');
+    if (course === "HTML"){
+      navigate('/HTML');
+    }
   };
 
   return (
