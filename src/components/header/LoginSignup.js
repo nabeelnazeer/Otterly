@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './LoginSignup.css';
 import { signInWithGoogle } from './auth';
+import Dashboard from './Dashboard';
 
 function LoginSignup() {
   const [showSignUp, setShowSignUp] = useState(false);

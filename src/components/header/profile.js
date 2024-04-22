@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom'; // Import useNavigate hook
 import './profile.css';
+import Dashboard from './Dashboard';
 
 function Profile() {
   const navigate = useNavigate(); // Initialize useNavigate hook
@@ -38,6 +39,9 @@ function Profile() {
 
   return (
     <div className="profile-container"> 
+    <div className="Dash">
+      <Dashboard/>
+    </div>
       <div className="profile-info"> 
         <h2>Profile</h2>
         <div className="name-email-section">
